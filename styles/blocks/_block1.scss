@@ -235,3 +235,79 @@
     }
 
 }
+
+.pie1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid rgb(202, 202, 202);        
+        &--img{
+            height: 70px;
+
+        }
+        &--txt{
+            color: $fn-color-gris;
+            font-size: 15px;
+            font-weight: 500;       
+            
+        }
+    }
+}
+
+.pie2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width: 100%;
+    
+
+    &__ficha1{        
+        width: 400px;      
+        max-height: 240px; 
+        &--img{
+            width: 400px;  
+        }
+        &--tit{
+            color: $bg_blanco;
+            font-size: 30px;
+            font-weight: 400;
+            width: 300px;
+            position: relative;
+            top: -215px;
+            left: 10px;
+        }
+        &--sub{
+            color: $bg_blanco;
+            position: relative;
+            top: -214px;
+            left: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &--boton{
+            padding: 10px;
+            color: $bg_blanco;
+            width: 200px;
+            font-size: 20px;
+            font-weight: 500;
+            position: relative;
+            top: -200px;
+            left: 10px;
+            border: 1px solid white;        
+        }
+        &--negro{
+            color: black;
+            border: 1px solid black;        
+            position: relative;
+            top:-70px;
+        }
+
+
+    }
+}
